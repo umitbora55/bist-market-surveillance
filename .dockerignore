@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+tests/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data
+data/
+*.csv
+*.parquet
+
+# Models (will be generated)
+models/*.h5
+models/*.pkl
+
+# Logs
+*.log
+logs/
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Documentation
+docs/
+README.md
+PROJECT_SUMMARY.md
+notebooks/
+
+# Temporary
+.env
