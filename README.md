@@ -184,7 +184,8 @@ Sprint 1 (Foundation) - COMPLETED / TAMAMLANDI
 - Storage layer
 - REST API
 
-Sprint 2 (Visualization & API) - COMPLETED / TAMAMLANDI 
+Sprint 2 (Visualization & API) - COMPLETED / TAMAMLANDI
+ 
 Sprint 3 (ML Models) - COMPLETED / TAMAMLANDI 
 - LSTM Autoencoder trained and integrated
 - Anomaly detection threshold: 1.22
