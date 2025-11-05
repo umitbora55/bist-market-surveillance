@@ -57,7 +57,7 @@ services:
     image: redis:7.2-alpine
     container_name: redis
     ports:
-      - "6379:6379"
+      - "6380:6379"
 
   grafana:
     image: grafana/grafana:10.2.0
