@@ -28,6 +28,8 @@ TakasBank ve MKK gibi finansal altyapı kurumlarının kritik ihtiyaçlarına ya
 - Dual storage (Elasticsearch + PostgreSQL) / Çift depolama (Elasticsearch + PostgreSQL)
 - RESTful API with FastAPI / FastAPI ile RESTful API
 - Ready for Grafana dashboards / Grafana dashboard'lar için hazır
+- LSTM Autoencoder for time-series anomaly detection / Zaman serisi anomali tespiti için LSTM Autoencoder
+- Trained on 30 days historical data / 30 günlük historical veri ile eğitilmiş
 
 ## Technology Stack / Teknoloji Stack
 
@@ -174,7 +176,7 @@ API Documentation: http://localhost:8000/docs
 
 ## Project Status / Proje Durumu
 
-Sprint 1 (Foundation) - COMPLETED / TAMAMLANDI ✓
+Sprint 1 (Foundation) - COMPLETED / TAMAMLANDI 
 - Infrastructure setup
 - Data ingestion pipeline
 - Real-time stream processing
@@ -182,8 +184,12 @@ Sprint 1 (Foundation) - COMPLETED / TAMAMLANDI ✓
 - Storage layer
 - REST API
 
-Sprint 2 (In Progress) - Grafana Dashboard
-Sprint 3 (Planned) - ML Models (LSTM, Isolation Forest)
+Sprint 2 (Visualization & API) - COMPLETED / TAMAMLANDI 
+Sprint 3 (ML Models) - COMPLETED / TAMAMLANDI 
+- LSTM Autoencoder trained and integrated
+- Anomaly detection threshold: 1.22
+- Detection rate: 1.22% on training data
+
 Sprint 4 (Planned) - Airflow Orchestration
 
 ## Performance / Performans
