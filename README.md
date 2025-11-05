@@ -71,6 +71,22 @@ TakasBank ve MKK gibi finansal altyapı kurumlarının kritik ihtiyaçlarına ya
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+## Dashboard / Gösterge Paneli
+
+![Grafana Dashboard](docs/screenshots/grafana-dashboard.png)
+
+Real-time monitoring dashboard showing:
+- Alert statistics and distribution
+- Recent alerts table
+- Alert rate timeline
+- Total alert counter with threshold-based coloring
+
+Gerçek zamanlı izleme gösterge paneli:
+- Alert istatistikleri ve dağılımı
+- Son alert'ler tablosu
+- Alert rate zaman çizelgesi
+- Eşik değer bazlı renkli toplam alert sayacı
+
 ## Anomaly Detection Rules / Anomali Tespit Kuralları
 
 1. **Pump and Dump**: Price increase >15% with high volume / Fiyat artışı %15+ yüksek hacimle
