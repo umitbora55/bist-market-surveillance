@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# ML Models
+models/*.h5
+models/*.pkl
+mlruns/
+
+# Logs
+*.log
+
+# Airflow
+airflow/airflow.db
+airflow/logs/
+
+# Data
+data/
+*.csv
+*.parquet
+
+# Testing
+.pytest_cache/
